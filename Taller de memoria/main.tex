@@ -60,20 +60,19 @@ Tecnicamente se llama memoria a todo dispositivo de almacenamiento pero usualmen
     
 \subsection{\textbf{Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.}}
 Existen diferentes tipo de memoria donde varian tanto su capacidad de almacenamiento y velocidad.\\
-\begin{enumerate}
-    \item \textbf{Memoria cache:} \\
-    La memoria de acceso rápido; opera de forma similar a la memoria principal pero con mayor velocidad, aunque con mucha menos capacidad. Su eficiencia permite al microprocesador de una forma mas rápida acceder a los datos mas frecuentemente utilizados sin tener que rastrearlos a su lugar de origen. \cite{concepto} Esta memoria se encuentra dividida en tres tipos que son la cache L1 alojada en los nucleos del microprocesador siendo la mas veloz y la de menos capacidad, la sigue la cache L2 que tambien se encuentra en los nucleos pero aunque no es tan veloz, tiene mas capacidad; por ultimo se encuentra la cache L3 que se encuentra fuera de los nucleos y es la de mayor capacidad pero la menos rapida en comparacion de las diferentes memorias cache. \cite{augusto}
-    \item \textbf{Memoria RAM:}\\
-    Es la memoria principal del computador, es mas lenta que la memoria cache pero mucho mas rápida que el disco duro. La mayor parte de la información se carga en ella. Su nombre es Random Access Memory que dan como resultado las siglas RAM con las que comunmente se conoce. \cite{augusto}
-    Permite almacenar y leer la información que la CPU necesita mientras esta ejecutando un programa; ademas, almacena los resultados de las operaciones efectuadas. \cite{ecured}
-    \item \textbf{Memoria virtual:}\\
-    Es una porción del disco duro dedicada solo a sostener temporalmente los pedazos de los programas y datos en ejecución que son menos utilizados o que ocupan un espacio innecesario en algun momento determinado y se dejan aqui ubicados para estar listos en caso de que se requieran en algún momento. Cuando hay algun recurso de un programa que esta consumiendo demasiado espacio en la memoria y no se esta utilizando en el momento, estos datos son puestos en la memoria virtual temporalmente hasta un próximo aviso y asi esa parte de la memoria RAM, utilizarla con algún otro recurso que se requiera en el momento.
-    \item \textbf{Disco duro:}\\
-    Dispositivo de almacenamiento donde se pueden almacenar datos de forma permanente. 
-    \item \textbf{Memoria ROM:}\\
-    Es una memoria de solo lectura que sirve para el arranque del computador y para cargar la BIOS.
-   
-\end{enumerate}
+
+\subsubsection{\textbf{Memoria cache:}}
+La memoria de acceso rápido; opera de forma similar a la memoria principal pero con mayor velocidad, aunque con mucha menos capacidad. Su eficiencia permite al microprocesador de una forma mas rápida acceder a los datos mas frecuentemente utilizados sin tener que rastrearlos a su lugar de origen. \cite{concepto} Esta memoria se encuentra dividida en tres tipos que son la cache L1 alojada en los nucleos del microprocesador siendo la mas veloz y la de menos capacidad, la sigue la cache L2 que tambien se encuentra en los nucleos pero aunque no es tan veloz, tiene mas capacidad; por ultimo se encuentra la cache L3 que se encuentra fuera de los nucleos y es la de mayor capacidad pero la menos rapida en comparacion de las diferentes memorias cache. \cite{augusto}
+\subsubsection{\textbf{Memoria RAM:}}
+Es la memoria principal del computador, es mas lenta que la memoria cache pero mucho mas rápida que el disco duro. La mayor parte de la información se carga en ella. Su nombre es Random Access Memory que dan como resultado las siglas RAM con las que comunmente se conoce. \cite{augusto}
+Permite almacenar y leer la información que la CPU necesita mientras esta ejecutando un programa; ademas, almacena los resultados de las operaciones efectuadas. \cite{ecured}
+\subsubsection{\textbf{Memoria virtual:}}
+Es una porción del disco duro dedicada solo a sostener temporalmente los pedazos de los programas y datos en ejecución que son menos utilizados o que ocupan un espacio innecesario en algun momento determinado y se dejan aqui ubicados para estar listos en caso de que se requieran en algún momento. Cuando hay algun recurso de un programa que esta consumiendo demasiado espacio en la memoria y no se esta utilizando en el momento, estos datos son puestos en la memoria virtual temporalmente hasta un próximo aviso y asi esa parte de la memoria RAM, utilizarla con algún otro recurso que se requiera en el momento.
+\subsubsection{\textbf{Disco duro:}}
+Dispositivo de almacenamiento donde se pueden almacenar datos de forma permanente. 
+\subsubsection{\textbf{Memoria ROM:}}
+Es una memoria de solo lectura que sirve para el arranque del computador y para cargar la BIOS.
+
     
 \subsection{\textbf{Describa la manera como se gestiona la memoria en un computador.}}
 Existe un controlador de memoria el cual es el encargado de gestionar las tareas de la memoria y funciona como puente con el microprocesador, controlando el flujo de datos entre estos, entregandole las instrucciones que la CPU le envía y controla la velocidad de ejecución de estas tareas. Usualmente este controlador se puede encontrar como un chip en la motherboard entre la CPU y los modulos de memoria ó en dentro del microprocesador. \cite{augusto}
@@ -81,7 +80,8 @@ Existe un controlador de memoria el cual es el encargado de gestionar las tareas
 La rápidez varia dependiendo de su frecuencia la cual se mide en MHz, ya que entre mas alta sea su frecuencia, esta trabajara mas rápido los datos que otra de menor frecuencia, adicional a esto se debe tener en cuenta, otro termino como es la latencia que es el tiempo que transcurre desde que el controlador de memoria pide cierta información requerida por el microprocesador y se obtiene cada bit de información. Por lo tanto se puede decir que una memoria es mas rápida que otra dependiendo que tanto sea mayor su frecuencia con respecto a su latencia.\cite{hardzone}\\
 Existe una fórmula matemática donde se relacionan estas dos cantidades y la cual permite conocer que tan rápida será una memoria con respecto a otra, la cual es (Latencia/Frecuencia) x 2 x 1024; \cite{computer} al reemplazar estos dos valores, cuanto mas pequeño sea el resultado, el rendimiento obtenido de la memoria será mucho mejor.\\
 Es importante que una memoria sea velóz ya que cuanto más rápida sea, más influirá en el rendimiento del computador, y por ende será capaz de resolver una mayor cantidad de peticiones por segundo. Aunque el rendimiento del computador depende de varios componentes, la memoria es una parte muy importante para que este sea bueno. \cite{computer}
-    
+
+\newpage    
 
 \section{Conclusiones} \label{conclusion}
 
